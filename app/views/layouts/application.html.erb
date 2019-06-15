@@ -16,7 +16,8 @@
       <%= image_tag(('https://rubyonrails.org/images/rails-logo.svg'), class: "img img-responesive",id: "imgtag")%>
    </div>
     <%= yield %>
-   </div>
     <%= render "layouts/footer" %>
+    <%= debug(params) if Rails.env.development? %>
+  </div>
   </body>
 </html>
