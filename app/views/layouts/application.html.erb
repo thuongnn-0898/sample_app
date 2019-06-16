@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <%= render "layouts/header"%>
+    <h1><%= yield :name %> | Ruby on Rails Tutorial Sample App</h1>
     <%= t :name %>
     <%= yield %>
   </body>
