@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +12,9 @@
   <body>
    <div class="container">
     <%= render "layouts/header" %>
+   <div class="col-md-5">
+      <%= image_tag(('https://rubyonrails.org/images/rails-logo.svg'), class: "img img-responesive",id: "imgtag")%>
+   </div>
     <%= yield %>
    </div>
     <%= render "layouts/footer" %>
