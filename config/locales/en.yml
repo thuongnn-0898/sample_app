@@ -38,6 +38,7 @@ en:
   # layouts:
   application:
     title: "tesst"
+    page_title: "Ruby on Rails Tutorial Sample App"
   contact:
     name : "nguyen ngoc thuong"
   users :
