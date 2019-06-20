@@ -32,7 +32,6 @@ class UsersController < ApplicationController
     render 'new'
   end
 end
-
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update

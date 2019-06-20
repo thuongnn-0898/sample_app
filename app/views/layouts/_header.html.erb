@@ -17,12 +17,10 @@
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to "Sign-up", signup_path, class: "nav-link"%>
-          <% if logged_in? %>
-          <%= link_to "Login", login_path, class: "nav-link" %>
-          <% else %>
-          <%= link_to "Logout", logout_path, class: "nav-link", method: :delete %>
-          <% end %>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
       <li class="nav-item">
